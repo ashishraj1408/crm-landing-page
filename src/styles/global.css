@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* ── HOW IT WORKS LIGHT BALL ── */
+
+.hiw-lightball {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.relative.py-12.bg-\[\#E8EDF5\] {
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .hiw-lightball {
+    width: 80px;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 768px) {
+  .hiw-lightball {
+    width: 60px;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 480px) {
+  .hiw-lightball {
+    width: 60px;
+    bottom: -10px;
+    right: -20px;
+    opacity: 0.6;
+  }
+}
