@@ -26,7 +26,7 @@ function HowItWorks() {
         {/* ================= HEADER ================= */}
         <div className="mb-10">
           <h2 className="text-[40px] font-bold text-[#1e293b] mb-2">
-            How it Works
+            How it Works deploy changes
           </h2>
           <p className="text-[#64748b] text-[15px]">
             From setup to success in{" "}
